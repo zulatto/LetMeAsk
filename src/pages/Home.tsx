@@ -15,7 +15,7 @@ export function Home() {
                 </p>
             </aside>
             <main>
-                <div>
+                <div className="main-content">
                     <img src={logoImg} alt="letmeask" />
                     <button>
                         <img src={googleIconImg} alt="Logo google" />
