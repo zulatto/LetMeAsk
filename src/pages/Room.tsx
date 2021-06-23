@@ -5,7 +5,7 @@ import { Button } from '../components/Button';
 import '../styles/room.scss';
 
 export function Room(){
-    return  (
+    return (
         <div id="page-room">
             <header>
                 <div className="content">
@@ -14,7 +14,7 @@ export function Room(){
                 </div>
             </header>
 
-            <main className="content">
+            <main>
                 <div className="room-title">
                     <h1>Sala React</h1>
                     <span>4 perguntas</span>
@@ -24,11 +24,12 @@ export function Room(){
                     <textarea
                         placeholder="O que voce quer perguntar"
                     />
-                    <div className="fomr-footer">
+                    <div className="form-footer">
                         <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
-                    <Button type="submit">Enviar pergunta</Button>
+                        <Button type="submit">Enviar pergunta</Button>
                     </div>
                 </form>
+
             </main>
         </div>
     );
